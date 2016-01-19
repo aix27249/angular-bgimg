@@ -1,0 +1,69 @@
+.bgimg {
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.bgimg-cover {
+	background-size: cover;
+}
+
+.bgimg-contain {
+	background-size: contain;
+}
+
+/* Aspect ratio fix */
+.bgimg-box {
+	position: relative;
+	width: 100%;
+}
+
+/* Aspect ratio definitions.
+ * If you need another one, describe your own class using name like ratioX_Y.
+ * Default aspect ratio is 1:1 (square)
+ */
+.bgimg-box:before {
+	content: "";
+	display: block;
+	padding-top: 100%;
+}
+
+/* 2:1 */
+.ratio2_1:before {
+	padding-top: 50%;
+}
+
+/* 1:2 */
+.ratio1_2:before {
+	padding-top: 200%;
+}
+
+/* 3:4 */
+.ratio3_4:before {
+	padding-top: 125%;
+}
+
+/* 4:3 */
+.ratio4_3:before {
+	padding-top: 75%;
+}
+
+/* 5:4 */
+.ratio5_4:before {
+	padding-top: 80%;
+}
+
+/* 16:9 */
+.ratio16_9:before {
+	padding-top: 56.25%;
+}
+
+/* 16:10 */
+.ratio16_10:before {
+	padding-top: 66.66%;
+}
