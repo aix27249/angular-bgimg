@@ -1,0 +1,18 @@
+{
+  "name": "angular-bgimg",
+  "homepage": "https://github.com/aix27249/angular-bgimg",
+  "authors": [
+    "Bogdan Kokorev <i27249@gmail.com>"
+  ],
+  "description": "AngularJS directive that displays a responsive image with a given aspect ratio using background-image",
+  "main": "bgimg.js",
+  "moduleType": [],
+  "keywords": [
+    "angularjs",
+    "directive",
+    "image",
+    "bgimg",
+    "background-image"
+  ],
+  "license": "MIT"
+}
