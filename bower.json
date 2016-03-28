@@ -5,7 +5,7 @@
     "Bogdan Kokorev <i27249@gmail.com>"
   ],
   "description": "AngularJS directive that displays a responsive image with a given aspect ratio using background-image",
-  "main": "bgimg.js",
+  "main": ["bgimg.js", "bgimg.css"],
   "moduleType": [],
   "keywords": [
     "angularjs",
